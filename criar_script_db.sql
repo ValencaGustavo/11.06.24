@@ -8,3 +8,5 @@ INSERT INTO `db_technovalenca`.`tbl_technovalenca` (`id`, `nome`, `idade`, `gene
 INSERT INTO `db_technovalenca`.`tbl_technovalenca` (`id`, `nome`, `idade`, `genero`, `cep`, `endereco`, `cidade`, `estado`, `nacionalidade`, `email`, `password`) VALUES ('3', 'Zilda Pereira', '83', 'Feminino', '40028922', 'Sem rumo', 'Londrina', 'Paraná', 'Brasileiro(a)', 'zildapereira@gmail.com', 'nogainnopain');
 
 UPDATE `db_technovalenca`.`tbl_technovalenca` SET `endereco` = 'Com rumo', `cidade` = 'Brooklyn', `estado` = 'New York', `nacionalidade` = 'Americano(a)' WHERE (`id` = '2');
+
+DELETE FROM `db_technovalenca`.`tbl_technovalenca` WHERE (`id` = '3');
